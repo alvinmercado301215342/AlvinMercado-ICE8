@@ -13,6 +13,8 @@
 		EF4700E727EFCD0D0033FB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4700E527EFCD0D0033FB26 /* Main.storyboard */; };
 		EF4700E927EFCD0E0033FB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4700E827EFCD0E0033FB26 /* Assets.xcassets */; };
 		EF4700EC27EFCD0E0033FB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4700EA27EFCD0E0033FB26 /* LaunchScreen.storyboard */; };
+		EF4700F427EFCDC70033FB26 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF4700F327EFCDC70033FB26 /* MobileNetV2.mlmodel */; };
+		EF4700F827EFD5DE0033FB26 /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF4700F727EFD5DE0033FB26 /* car.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EF4700E827EFCD0E0033FB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4700EB27EFCD0E0033FB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4700ED27EFCD0E0033FB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4700F327EFCDC70033FB26 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		EF4700F727EFD5DE0033FB26 /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car.jpeg; path = ../../../Downloads/car.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EF4700DF27EFCD0D0033FB26 /* AppDelegate.swift */,
 				EF4700E127EFCD0D0033FB26 /* SceneDelegate.swift */,
 				EF4700E327EFCD0D0033FB26 /* ViewController.swift */,
+				EF4700F327EFCDC70033FB26 /* MobileNetV2.mlmodel */,
+				EF4700F727EFD5DE0033FB26 /* car.jpeg */,
 				EF4700E527EFCD0D0033FB26 /* Main.storyboard */,
 				EF4700E827EFCD0E0033FB26 /* Assets.xcassets */,
 				EF4700EA27EFCD0E0033FB26 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				EF4700EC27EFCD0E0033FB26 /* LaunchScreen.storyboard in Resources */,
 				EF4700E927EFCD0E0033FB26 /* Assets.xcassets in Resources */,
+				EF4700F827EFD5DE0033FB26 /* car.jpeg in Resources */,
 				EF4700E727EFCD0D0033FB26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				EF4700E427EFCD0D0033FB26 /* ViewController.swift in Sources */,
 				EF4700E027EFCD0D0033FB26 /* AppDelegate.swift in Sources */,
+				EF4700F427EFCDC70033FB26 /* MobileNetV2.mlmodel in Sources */,
 				EF4700E227EFCD0D0033FB26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
